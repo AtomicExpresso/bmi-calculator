@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #ffe294;
+  font-family: sans-serif;
+}
+
+.btn button{
+  margin-top: 5vh;
+  cursor: pointer;
+  background-color: hsl(215, 100%, 50%);
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+
+.btn button:hover{
+  background-color: hsl(215, 100%, 38%);
+  scale: 0.98;
+}
+
+.bmi-calc{
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info{
+  margin-top: 4vh;
+}
+
+.output{
+  margin-top: 5vh;
+  background-color: hsl(0, 0%, 100%);
+  border: solid 2px rgb(231, 231, 231);
+  border-radius: 6px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+}
